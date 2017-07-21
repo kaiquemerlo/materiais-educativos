@@ -1,0 +1,91 @@
+body{
+	background: #cfd1cf;
+}
+
+/* CONTAINER */
+.padding-padrao{
+	padding:0 130px;
+}
+
+/* MENU */
+.menu{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #FFF;
+}
+.menu img{
+	float: left;
+}
+
+.menu ul{
+	float: right;
+	margin: 25px auto;
+}
+
+.menu ul li{
+	display: inline;
+	padding-left: 30px;
+}
+
+.menu ul li a{
+	color: #333;
+
+}
+
+/* MAIN HEADER */
+.main-header{
+	background: #E5E5E5;
+}
+
+.main-header h1{
+	text-transform: uppercase;
+	font-size: 2em;
+	text-align: center;
+}
+
+.main-header h3{
+	text-align: center;
+	font-size: 1.25em;
+}
+
+.main-header p{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.main-header ul{
+	text-align: center;
+	list-style: none;
+}
+
+.main-header ul li{
+	display: inline;
+}
+
+
+/* SECTION EBOOKS */
+#ebooks p:first-child{
+	text-align: center;
+	font-size: 2.0em;
+	font-weight: bold;
+	margin: 40px 0;
+}
+
+.box-ebook{
+	border-radius: 10px;
+	background: #FFF;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+.box-ebook img{
+	padding: 0;
+	margin: 0;
+}
+
+.box-ebook a{
+	font-weight: 600;
+	font-size: 1.1em;
+}
