@@ -57,6 +57,7 @@ body{
 .main-header ul{
 	text-align: center;
 	list-style: none;
+	width: 97%;
 }
 
 .main-header ul li{
@@ -78,6 +79,7 @@ body{
 	padding: 0;
 	margin: 0;
 	overflow: hidden;
+	border: 5px solid #cfd1cf;
 }
 
 .box-ebook img{
@@ -89,3 +91,121 @@ body{
 	font-weight: 600;
 	font-size: 1.1em;
 }
+
+.content-action{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin: 50px 0;
+}
+
+/* SECTION softwares */
+#softwares > p:first-child{
+	text-align: center;
+	font-size: 2.0em;
+	font-weight: bold;
+	margin: 40px 0;
+}
+
+.box-softwares{
+	border-radius: 10px;
+	background: #FFF;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	border:5px solid #cfd1cf;
+}
+
+.box-softwares img{
+	padding: 0;
+	margin: 0;
+}
+
+.box-softwares a{
+	font-weight: 600;
+	font-size: 1.1em;
+}
+
+.box-softwares p, .box-softwares h3{
+	margin:10px 10px;
+	font-weight: bold;
+}
+
+.box-softwares a{
+	width: 100%;
+	margin:0 auto !important;
+}
+
+/* SECTION webinars */
+#webinars > p:first-child{
+	text-align: center;
+	font-size: 2.0em;
+	font-weight: bold;
+	margin: 40px 0;
+}
+
+.box-webinars{
+	border-radius: 10px;
+	background: #FFF;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	border: 5px solid #cfd1cf;
+}
+
+.box-webinars img{
+	padding: 0;
+	margin: 0;
+}
+
+
+.box-webinars p{
+	margin:10px 10px;
+	font-weight: bold;
+}
+
+
+.box-webinars a{
+	font-weight: 600;
+	font-size: 1.1em;
+	width:100%;
+}
+
+/*FOOTER*/
+.footer{
+	background: #E5E5E5;
+	height: 100px;
+	padding: 10px;
+	margin:40px 0 0 0;
+}
+
+.footer img{
+	float:left;
+}
+
+.footer ul{
+	list-style: none;
+	float: right;
+}
+
+.footer ul li{
+	display: inline;
+}
+
+
+
+/*RESPONSIVE*/
+.deptos img{width: 100%}
+
+
+
+
+
+
+
+
+
+
+
+
+
