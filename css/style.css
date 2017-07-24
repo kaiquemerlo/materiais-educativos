@@ -202,6 +202,9 @@ body{
 
 /*RESPONSIVE*/
 .deptos img{width: 100%}
+.deptos h3{
+	padding-right: 20px;
+}
 
 
 
