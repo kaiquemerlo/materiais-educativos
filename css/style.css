@@ -37,21 +37,27 @@ body{
 	background: #E5E5E5;
 }
 
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);*/
 .main-header h1{
 	text-transform: uppercase;
-	font-size: 2em;
+	font-size: 2.5em;
 	text-align: center;
-}
+	margin:40px 0 30px 0;
+	font-family: 'Open Sans', sans-serif;
+}	
 
 .main-header h3{
 	text-align: center;
-	font-size: 1.25em;
+	font-size: 1.5em;
+	margin:0 0 40px 0;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .main-header p{
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: bold;
+	font-size: 1.2em;
 }
 
 .main-header ul{
