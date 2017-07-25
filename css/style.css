@@ -4,13 +4,12 @@ body{
 
 /* CONTAINER */
 .padding-padrao{
-	padding:0 130px;
+	/* padding:0 130px; */
 }
 
 /* MENU */
 .menu{
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding: 10px 120px;
 	background: #FFF;
 }
 .menu img{
@@ -63,7 +62,7 @@ body{
 .main-header ul{
 	text-align: center;
 	list-style: none;
-	width: 97%;
+	padding: 0;
 }
 
 .main-header ul li{
@@ -120,6 +119,10 @@ body{
 	margin: 0;
 	overflow: hidden;
 	border:5px solid #cfd1cf;
+}
+
+.box-softwares h3{
+	height: 52px;
 }
 
 .box-softwares img{
@@ -200,8 +203,8 @@ body{
 
 
 /*RESPONSIVE*/
-.deptos img{width: 100%}
-.deptos h3{
+.deptos img{width: 100%
+}.deptos h3{
 	padding-right: 20px;
 }
 
