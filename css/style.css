@@ -141,8 +141,9 @@ body{
 }
 
 .box-softwares a{
-	width: 100%;
-	margin:0 auto !important;
+	width: 50%;
+	margin:10px auto !important;
+	word-wrap: break-word;
 }
 
 /* SECTION webinars */
@@ -168,7 +169,7 @@ body{
 }
 
 
-.box-webinars p{
+.box-webinars p, .box-webinars h3{
 	margin:10px 10px;
 	font-weight: bold;
 }
@@ -177,7 +178,8 @@ body{
 .box-webinars a{
 	font-weight: 600;
 	font-size: 1.1em;
-	width:100%;
+	width:80%;
+	margin: 10px auto;
 }
 
 /*FOOTER*/
@@ -199,24 +201,22 @@ body{
 
 .footer ul li{
 	display: inline;
+	vertical-align: middle;
+	padding: 0 5px;
+	line-height:80px;
+}
+
+.footer ul li a{
+	text-decoration: underline;
+	color: #666;
 }
 
 
 /*RESPONSIVE*/
-.deptos img{width: 100%
-}.deptos h3{
+.deptos img{
+	width: 100%;
+	margin: 0 auto;
+}
+.deptos h3{
 	padding-right: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
